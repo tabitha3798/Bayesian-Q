@@ -76,8 +76,8 @@ __Notations__
   - $J$ : Number of items
   - $K$ : Number of attributes
   - $L$ : Number of possible attribute patterns
-  - $a_0, a_1, ..., a_{2^K-1} \;\;\; (a_0 = (0,0,...,0),\;\; a_{2^K-1}=(1,1,...,1) )$ :  all attribute patterns 
-  - $a_{c_1}. a_{c_2}, ... , a_{c_L} \;\;\; (L<2^K,\;\; c_1=0, \;\; c_L=2^K-1)$  :  possible attribute patterns 
+  - $a_0, a_1, ..., a_{2^K-1} \\\ (a_0 = (0,0,...,0),\\ a_{2^K-1}=(1,1,...,1) )$ :  all attribute patterns 
+  - $a_{c_1}, a_{c_2}, ... , a_{c_L} \\\ (L<2^K,\\ c_1=0, \\ c_L=2^K-1)$  :  possible attribute patterns 
   - $C_H = \{c_1, c_2, ...,c_L \}$ : the set of corresponding class numbers to possible attribute patterns
   - $\tilde{a_{c_2}}, \tilde{a_{c_2}}, ... , \tilde{a_{c_L}}$  : equivalence classes for q-vectors   
    *(There is one to one correspondence between equivalence classes and nonzero possible attribute patterns.)* 
@@ -87,26 +87,17 @@ __Notations__
 ### 2. Information Input
 
 - Response data $Y$  
-$$Y_{ij}=
-\begin{cases}
-1,\;if \;examinee\; i \;answered \; item \; j \; correctly \\
-0,\;if \;examinee\; i \; answered \; item \; j \;wrong
-\end{cases}$$
- <br/>  
+<br/>
+<center><img src = "./img/Y.JPG" width = "100%" height = "100%"></center>  
+<br/>  
 
 - Adjacent matrix $A$ that discribes the hierarchy structure
- <br/>  
-   $$A=(A_{k_1k_2})_{KxK}, \;\;\; where \;\;\; A_{k_1k_2}=
-\begin{cases}
-1,\;if \;attribute \; k_1 \;is \; necessary \; for \; attribute \; k_2\\
-0,\;o.w.\;
-\end{cases}$$
+<br/>  
+<center><img src = "./img/A.JPG" width = "100%" height = "100%"></center>  
 <br/>      
 - Q-matrix information matrix $Q_I$ suggested by test developers and educational experts.  
-
 <br/>  
-   $$Q_I=(q'_{jk})_{JxK}, \;\;\; where \;\;\; q'_{jk}=Pr(q_{jk}=1) 
-$$ 
+$$Q_I=(q'_{jk})_{JxK}, \;\;\; where \;\;\; q'_{jk}=Pr(q_{jk}=1) $$ 
 
 > Ex.  $q'_{jk}=0.7$ means that experts thought there is a 70% probability that attribute $k$ is necessary for item $j$.  
 $\;\;\;\;$Or, seven out of 10 experts agreed $q_{jk}=1$.
