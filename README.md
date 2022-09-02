@@ -20,7 +20,9 @@ This research modified Bayesian Q-matrix estimation method originally suggested 
 - *Q-matrix*   
    The incidence matrix which identify the relationship between items and attributes(skills).  
 <br/>  
+<p align="center">
 <center><img src = "./img/Q.JPG" width = "90%" height = "90%"></center>  
+</p>
 <br/>   
 
 - *Attribute pattern*   
