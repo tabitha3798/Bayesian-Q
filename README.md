@@ -29,12 +29,11 @@ This research modified Bayesian Q-matrix estimation method originally suggested 
 <br/>   
 
 - *DINA model*   
+DINA model is one of the simplest and the most common-used CDMs.   
 For examinee $i$, the probability of correct answer for item $j$ is  
 <br/>  
 <center><img src = "./img/DINA.JPG" width = "100%" height = "100%"></center>  
 <br/>  
-DINA model is one of the simplest and the most common-used CDMs. 
-<br/>
 <br/>   
 
 - *Hierarchy*  
