@@ -75,7 +75,7 @@ __Notations__
   - $J$ : Number of items
   - $K$ : Number of attributes
   - $L$ : Number of possible attribute patterns
-  - $a_0, a_1, ..., a_{2^K-1} \\\ (a_0 = (0,0,...,0),\\ a_{2^K-1}=(1,1,...,1) )$ :  all attribute patterns 
+  - $a_0, a_1, ..., a_{2^K-1} \ \ \ (a_0 = (0,0,...,0), \ \ a_{2^K-1}=(1,1,...,1) )$ :  all attribute patterns 
   - $a_{c_1}, a_{c_2}, ... , a_{c_L} \\\ (L<2^K,\\ c_1=0, \\ c_L=2^K-1)$  :  possible attribute patterns 
   - $C_H = \{c_1, c_2, ...,c_L \}$ : the set of corresponding class numbers to possible attribute patterns
   - $\tilde{a_{c_2}}, \tilde{a_{c_2}}, ... , \tilde{a_{c_L}}$  : equivalence classes for q-vectors   
@@ -114,21 +114,21 @@ Or, seven out of 10 experts agreed $q_{jk}=1$.
   - $s_j, \ for\ j=1,2,...,J$ : slip parameter for item $j$
   - $n_j, \ for\ j=1,2,...,J$ : equivalence class number for  q-vector for item $j$ ($n_j \in C_H-\{c_1\}$)
   - $Q_n=(n_1, n_2, ..., n_J)^T$ : vector of equivalence class numbers for q-vectors 
-  - $\phi_{j}=(\phi_{c_2}^{(j)},\phi_{c_3}^{(j)}, ..., \phi_{c_L}^{(j)}), \; for\; j=1,2,...,J$ : pmf for each $L-1$ equivalence classes for q-vector for item $j$
+  - $\phi_{j}=(\phi_{c_2}^{(j)},\phi_{c_3}^{(j)}, ..., \phi_{c_L}^{(j)}), \ for\ j=1,2,...,J$ : pmf for each $L-1$ equivalence classes for q-vector for item $j$
 <br/>
 <br/>
 
 
 ### 4. Model
 Likelihood on DINA Model :  
-$$Pr(Y_{ij} = 1| \alpha_{i}, q_{j}, s_{j}, g_{j}) = (1-s_j)^{\eta_{ij}}{g_j}^{(1-\eta_{ij})}, \\\ where \\\ \eta_{ij}=\displaystyle\prod_{k=1}^{K}{(\alpha_{ik})^{q_{jk}}}$$  
+$$Pr(Y_{ij} = 1| \alpha_{i}, q_{j}, s_{j}, g_{j}) = (1-s_j)^{\eta_{ij}}{g_j}^{(1-\eta_{ij})}, \ \ \ where \ \ \ \eta_{ij}=\displaystyle\prod_{k=1}^{K}{(\alpha_{ik})^{q_{jk}}}$$  
 
 Priors : 
   - $Pr(\alpha_i = a_c|\pi_L) = pi_c I(c \in C_H)$ 
   - $\pi_L \sim dirichlet(1,1,...,1)
-  - $p(s_j , g_j) \propto {s_j}^{\alpha_s -1}{(1-s_j)}^{\beta_s -1}{g_j}^{\alpha_g -1}{(1-g_j)}^{\beta_g -1}\;I(0\leq g_j <1-s_j \leq 1)$
+  - $p(s_j , g_j) \propto {s_j}^{\alpha_s -1}{(1-s_j)}^{\beta_s -1}{g_j}^{\alpha_g -1}{(1-g_j)}^{\beta_g -1}\I(0\leq g_j <1-s_j \leq 1)$
   - $Pr(n_j=c_l|\phi)=Pr(q_{j}\in  \tilde{a_{c_l}}) = \phi_{c_l}$
-  - $\phi_{j} \sim dirichlet(\lambda p_{c_2}^{(j)},\lambda p_{c_3}^{(j)}, ..., \lambda p_{c_L}^{(j)}),  \\\where \\\p_{c_l}^{(j)} = \displaystyle\sum_{a_c \in \tilde{a_{c_l}}}{Pr(q_j = a_c)}/(1-{p_0}^{(j)})$  
+  - $\phi_{j} \sim dirichlet(\lambda p_{c_2}^{(j)},\lambda p_{c_3}^{(j)}, ..., \lambda p_{c_L}^{(j)}),  \ \ \ where \ \ \ p_{c_l}^{(j)} = \displaystyle\sum_{a_c \in \tilde{a_{c_l}}}{Pr(q_j = a_c)}/(1-{p_0}^{(j)})$  
   
 > Each  $Pr(q_j = a_c)$ for all q-vector candidates $a_c$'s and  ${p_0}^{(j)}=Pr(q_j=(0,0,...,0))$ are computed by multiplying probabilities for each entries that can be obtained from $QI$ matrix. 
 
