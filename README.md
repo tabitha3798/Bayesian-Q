@@ -108,11 +108,11 @@ $$Q_I=(p_{jk})_{JxK}, \ \ \ where \ \ \ p_{jk}=Pr(q_{jk}=1) $$
 
 ### 3. Variables 
   - $\alpha_{i}= (\alpha_{i1}, \alpha_{i2}, ..., \alpha_{iK}), \ for\ i=1,2,...,N$ : attribute pattern for examinee $i$
-  - $\pi_c, \ for \ c=0,1,...,2^K-1$ : pmf for all attribute patterns (Set $pi_c=0, \ \ \ for c\notin c_H$)
+  - $\pi_c, \ for \ c=0,1,...,2^K-1$ : pmf for all attribute patterns (Set $\pi_c=0, \ \ \ for \ \ c\notin c_H$)
   - $\pi_L = ( \pi_{c_1}, \pi_{c_2}, ... , \pi_{c_L})$ : vector of pmf for each  $L$ possible attribute patterns
   - $g_j, \ for \ j=1,2,...,J$ : guess parameter for item $j$
   - $s_j, \ for \ j=1,2,...,J$ : slip parameter for item $j$
-  - $n_j, \ for \ j=1,2,...,J$ : equivalence class number for  q-vector for item $j$ ($n_j \in C_H-\{c_1\}$)
+  - $n_j, \ for \ j=1,2,...,J$ : equivalence class number for  q-vector for item $j$ ( $n_j \in C_H-\{c_1\}$ )
   - $Q_n=(n_1, n_2, ..., n_J)^T$ : vector of equivalence class numbers for q-vectors 
   - $\phi_{j}=(\phi_{c_2}^{(j)},\phi_{c_3}^{(j)}, ..., \phi_{c_L}^{(j)}), \ for \ j=1,2,...,J$ : pmf for each $L-1$ equivalence classes for q-vector for item $j$
 <br/>
