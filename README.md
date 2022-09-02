@@ -62,7 +62,7 @@ For examinee $i$, the probability of correct answer for item $j$ is
 In condition of strong hierarchy structure, attribute patterns of examinees should follow the hierarchy structure. Thus, only some of attribute patterns, not all of them, are possible for attribute patterns of examinees.  
 The set of posstible attribute patterns can be easily obtained by the columns of the access matrix $R = I+A+A^2+A^3 + ....$  
 
-  *(cf. In the case of weak hierarchy structure, attribute patterns of examinees do not have to follow the hierarchy structure, but the proportion of attribute patterns that follow the structure is $k$ times ($k>1$) larger than that of attribute patterns that do not follow the structure.)* 
+  *(cf. In the case of weak hierarchy structure, attribute patterns of examinees do not have to follow the hierarchy structure, but the proportion of attribute patterns that follow the structure is* $k \ (>1)$ * timeslarger than that of attribute patterns that do not follow the structure.)* 
 <br/>
 
 - *Equivalence relationship for q-vectors*                                            
