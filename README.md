@@ -16,12 +16,12 @@ This research modified Bayesian Q-matrix estimation method originally suggested 
 - *Cognitive diagnostic Assessment*  
    CDA is designed to measure specific knowledge structures and processing skills in students so as to provide information about their cognitive strengths and weaknesses. (Leighton & Griel, 2007)  
 <br/>
-<br/>
 
 - *Q-matrix*   
    The incidence matrix which identify the relationship between items and attributes(skills).  
 <br/>  
-   $$Q=(q_{jk})_{JxK}, \;\;\; where \;\;\; q_{jk}=
+   $$Q=(q_{jk})_{JxK}, \\\ where \\\ $$
+   $$q_{jk}=
 \begin{cases}
 1,\;if \;item \; j \;requires \;attribute\; k\\
 0,\;o.w.\;
