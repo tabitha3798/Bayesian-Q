@@ -120,9 +120,10 @@ Or, seven out of 10 experts agreed $q_{jk}=1$.
 
 
 ### 4. Model
-Likelihood on DINA Model : 
-$$Pr(Y_{ij} = 1|\alpha_{i}, q_{j}, s_{j}, g_{j}) = (1-s_j)^{\eta_{ij}}{g_j}^{(1-\eta_{ij})}, \\\ where \\\ \eta_{ij}=
-\displaystyle\prod_{k=1}^{K}{(\alpha_{ik})^{q_{jk}}}$$  
+Likelihood on DINA Model :  
+$$Pr(Y_{ij} = 1| \alpha_{i}, q_{j}, s_{j}, g_{j}) = (1-s_j)^{\eta_{ij}}{g_j}^{(1-\eta_{ij})}, $$
+$$where \\\ \eta_{ij}=\displaystyle\prod_{k=1}^{K}{(\alpha_{ik})^{q_{jk}}}$$  
+
 Priors : 
   - $Pr(\alpha_i = a_c|\pi_L) = pi_c I(c \in C_H)$ 
   - $\pi_L \sim dirichlet(1,1,...,1)
