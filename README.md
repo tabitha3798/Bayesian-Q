@@ -23,11 +23,12 @@ This research modified Bayesian Q-matrix estimation method originally suggested 
 <center><img src = "./img/Q.JPG" width = "100%" height = "100%"></center>  
 <br/>   
 $$Q=(q_{jk})_{JxK}, \ \ \ where \ \ \ $$ 
+
 $$q_{jk}= 
-\begin {cases} 
+\begin{cases} 
 1, \\
-0, \\
-\end {cases}$$
+0, \
+\end{cases}$$
 
 - *Attribute pattern*   
    A vector that shows whether an examinee mastered each attributes or not.
