@@ -16,7 +16,8 @@ This research modified Bayesian Q-matrix estimation method originally suggested 
 - *Cognitive diagnostic Assessment*  
    CDA is designed to measure specific knowledge structures and processing skills in students so as to provide information about their cognitive strengths and weaknesses. (Leighton & Griel, 2007)  
 <br/>
-<br/>   
+<br/>
+
 - *Q-matrix*   
    The incidence matrix which identify the relationship between items and attributes(skills).  
 <br/>  
@@ -53,6 +54,7 @@ $$and \;\; \eta_{ij}=
     DINA model is one of the simplest and the most common-used CDMs. 
 <br/>
 <br/>   
+
 - *Hierarchy*  
     If attribute $i$ should be mastered to master attribute $j$, then we say that these two attributes have hierarchy structure. In this case, attribute $i$ is a precedence attribute for attribute $j$, and attribute $j$ is a following attribute for attribute $i$.  
     Hierarchy structure between attributes is usually discribed by a directed graph or an adjacent matrix. 
