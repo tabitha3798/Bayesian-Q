@@ -50,7 +50,7 @@ For examinee $i$, the probability of correct answer for item $j$ is
 
 <br/>
 <br/>
-<center><img src = "./img/BayesianQ_SH.jpg" width = "80%" height = "80%"></center>  
+<center><img src = "./img/BayesianQ_SH.jpg" width = "50%" height = "50%"></center>  
 <br/>
 
 
