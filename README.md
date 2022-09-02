@@ -86,7 +86,7 @@ __Notations__
 
 ### 2. Information Input
 
-- Response data $Y={(Y_{ij})}_{NxK}$  
+- Response data $Y$  
 $$Y_{ij}=
 \begin{cases}
 1,\;if \;examinee\; i \;answered \; item \; j \; correctly \\
