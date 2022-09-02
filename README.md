@@ -20,36 +20,18 @@ This research modified Bayesian Q-matrix estimation method originally suggested 
 - *Q-matrix*   
    The incidence matrix which identify the relationship between items and attributes(skills).  
 <br/>  
-   $$Q=(q_{jk})_{JxK}, \\\ where \\\ $$
-   $q_{jk}=
-\begin{cases}
-1,\;if \;item \; j \;requires \;attribute\; k\\
-0,\;o.w.\;
-\end{cases}$
+<center><img src = "./img/Q.JPG" width = "100%" height = "100%"></center>  
 <br/>   
 
 - *Attribute pattern*   
    A vector that shows whether an examinee mastered each attributes or not.
-   $$\alpha_i = (\alpha_{i1}, \alpha_{i2}, ..., \alpha_{iK}),\;\;\; where\;\;\; \alpha_{ik}=
-\begin{cases}
-1,\;if \;examinee \; i \;mastered \;attribute\; k\\
-0,\;o.w.\;
-\end{cases}$$
+<center><img src = "./img/AP.JPG" width = "100%" height = "100%"></center>  
 <br/>   
 
 - *DINA model*   
 For examinee $i$, the probability of correct answer for item $j$ is  
 <br/>  
-$$Pr(Y_{ij} = 1|\alpha_{i}) = (1-s_j)^{\eta_{ij}}{g_j}^{(1-\eta_{ij})}$$  
-<br/>  
-$$ where \;\; \alpha_i = (\alpha_{i1}, \alpha_{i2}, ..., \alpha_{iK}) : \; \; attribute \; pattern \; for\;  examinee \; i , $$
-$$ s_j \; : \;\; slip \; parameter \; for \; item \; j, $$
-$$ g_j \; : \;\; guess \; parameter \; for \; item \; j, $$
-$$and \;\; \eta_{ij}=
-\begin{cases}
-1,\;if \; examinee \; i \;mastered \;all\; required\; skills\; for\; item\; j\\
-0,\;o.w.\;
-\end{cases}$$
+<center><img src = "./img/DINA.JPG" width = "100%" height = "100%"></center>  
 <br/>  
     DINA model is one of the simplest and the most common-used CDMs. 
 <br/>
