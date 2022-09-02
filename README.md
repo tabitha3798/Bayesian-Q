@@ -79,7 +79,7 @@ __Notations__
   - $a_0, a_1, ..., a_{2^K-1} \;\;\; (a_0 = (0,0,...,0),\;\; a_{2^K-1}=(1,1,...,1) )$ :  all attribute patterns 
   - $a_{c_1}. a_{c_2}, ... , a_{c_L} \;\;\; (L<2^K,\;\; c_1=0, \;\; c_L=2^K-1)$  :  possible attribute patterns 
   - $C_H = \{c_1, c_2, ...,c_L \}$ : the set of corresponding class numbers to possible attribute patterns
-  -  $ \tilde{a_{c_2}}. \tilde{a_{c_2}}, ... , \tilde{a_{c_L}} $  : equivalence classes for q-vectors   
+  - $\tilde{a_{c_2}}, \tilde{a_{c_2}}, ... , \tilde{a_{c_L}}$  : equivalence classes for q-vectors   
    *(There is one to one correspondence between equivalence classes and nonzero possible attribute patterns.)* 
 <br/>
 <br/>
