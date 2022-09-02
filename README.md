@@ -62,7 +62,7 @@ For examinee $i$, the probability of correct answer for item $j$ is
 In condition of strong hierarchy structure, attribute patterns of examinees should follow the hierarchy structure. Thus, only some of attribute patterns, not all of them, are possible for attribute patterns of examinees.  
 The set of posstible attribute patterns can be easily obtained by the columns of the access matrix $R = I+A+A^2+A^3 + ....$  
 
-  *(cf. In the case of weak hierarchy structure, attribute patterns of examinees do not have to follow the hierarchy structure, but the proportion of attribute patterns that follow the structure is* $k \ (>1)$ * timeslarger than that of attribute patterns that do not follow the structure.)* 
+  *(cf. In the case of weak hierarchy structure, attribute patterns of examinees do not have to follow the hierarchy structure, but the proportion of attribute patterns that follow the structure is* $k \ (>1)$ *times larger than that of attribute patterns that do not follow the structure.)* 
 <br/>
 
 - *Equivalence relationship for q-vectors*                                            
@@ -125,8 +125,8 @@ $$Pr(Y_{ij} = 1| \alpha_{i}, q_{j}, s_{j}, g_{j}) = (1-s_j)^{\eta_{ij}}{g_j}^{(1
 
 Priors : 
   - $Pr(\alpha_i = a_c|\pi_L) = pi_c I(c \in C_H)$ 
-  - $\pi_L \sim dirichlet(1,1,...,1)
-  - $p(s_j , g_j) \propto {s_j}^{\alpha_s -1}{(1-s_j)}^{\beta_s -1}{g_j}^{\alpha_g -1}{(1-g_j)}^{\beta_g -1}\I(0\leq g_j <1-s_j \leq 1)$
+  - $\pi_L \sim dirichlet(1,1,...,1)$
+  - $p(s_j , g_j) \propto {s_j}^{\alpha_s -1}{(1-s_j)}^{\beta_s -1}{g_j}^{\alpha_g -1}{(1-g_j)}^{\beta_g -1} \ I(0\leq g_j <1-s_j \leq 1)$
   - $Pr(n_j=c_l|\phi)=Pr(q_{j}\in  \tilde{a_{c_l}}) = \phi_{c_l}$
   - $\phi_{j} \sim dirichlet(\lambda p_{c_2}^{(j)},\lambda p_{c_3}^{(j)}, ..., \lambda p_{c_L}^{(j)}),  \ \ \ where \ \ \ p_{c_l}^{(j)} = \displaystyle\sum_{a_c \in \tilde{a_{c_l}}}{Pr(q_j = a_c)}/(1-{p_0}^{(j)})$  
   
