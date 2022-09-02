@@ -99,7 +99,7 @@ __Notations__
 <br/>  
 $$Q_I=(q'_{jk})_{JxK}, \;\;\; where \;\;\; q'_{jk}=Pr(q_{jk}=1) $$ 
 
-> Ex.  $q'_{jk}=0.7$ means that experts thought there is a 70% probability that attribute $k$ is necessary for item $j$.  
+> Ex. $q_{jk}=0.7$ means that experts thought there is a 70% probability that attribute $k$ is necessary for item $j$.  
 $\;\;\;\;$Or, seven out of 10 experts agreed $q_{jk}=1$.
 
 - Effect size $\lambda$ which is the reflection degree of expert's opinion. (default : $\lambda = 1$)
