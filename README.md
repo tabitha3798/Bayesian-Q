@@ -76,7 +76,7 @@ __Notations__
   - $K$ : Number of attributes
   - $L$ : Number of possible attribute patterns
   - $a_0, a_1, ..., a_{2^K-1} \ \ \ (a_0 = (0,0,...,0), \ \ a_{2^K-1}=(1,1,...,1) )$ :  all attribute patterns 
-  - $a_{c_1}, a_{c_2}, ... , a_{c_L} \\\ (L<2^K,\\ c_1=0, \\ c_L=2^K-1)$  :  possible attribute patterns 
+  - $a_{c_1}, a_{c_2}, ... , a_{c_L} \ \ \ (L<2^K, \ \ c_1=0, \ \ c_L=2^K-1)$  :  possible attribute patterns 
   - $C_H = \{c_1, c_2, ...,c_L \}$ : the set of corresponding class numbers to possible attribute patterns
   - $\tilde{a_{c_2}}, \tilde{a_{c_2}}, ... , \tilde{a_{c_L}}$  : equivalence classes for q-vectors   
    *(There is one to one correspondence between equivalence classes and nonzero possible attribute patterns.)* 
@@ -97,10 +97,10 @@ __Notations__
 
 - Q-matrix information matrix $Q_I$ suggested by test developers and educational experts.  
 <br/>  
-$$Q_I=(p_{jk})_{JxK}, \\\ where \\\ p_{jk}=Pr(q_{jk}=1) $$ 
+$$Q_I=(p_{jk})_{JxK}, \ \ \ where \ \ \ p_{jk}=Pr(q_{jk}=1) $$ 
 
-> Ex. $p_{jk}=0.7$ means that experts thought there is a 70% probability that attribute $k$ is necessary for item $j$.  
-Or, seven out of 10 experts agreed $q_{jk}=1$.
+  > Ex. $p_{jk}=0.7$ means that experts thought there is a 70% probability that attribute $k$ is necessary for item $j$.  
+  > Or, seven out of 10 experts agreed $q_{jk}=1$.
 
 - Effect size $\lambda$ which is the reflection degree of expert's opinion. (default : $\lambda = 1$)
 <br/>  
@@ -108,13 +108,13 @@ Or, seven out of 10 experts agreed $q_{jk}=1$.
 
 ### 3. Variables 
   - $\alpha_{i}= (\alpha_{i1}, \alpha_{i2}, ..., \alpha_{iK}), \ for\ i=1,2,...,N$ : attribute pattern for examinee $i$
-  - $\pi_c, \ for\ c=0,1,...,2^K-1$ : pmf for all attribute patterns (Set $pi_c=0, \\\for c\notin c_H$)
+  - $\pi_c, \ for \ c=0,1,...,2^K-1$ : pmf for all attribute patterns (Set $pi_c=0, \ \ \ for c\notin c_H$)
   - $\pi_L = ( \pi_{c_1}, \pi_{c_2}, ... , \pi_{c_L})$ : vector of pmf for each  $L$ possible attribute patterns
-  - $g_j, \ for\ j=1,2,...,J$ : guess parameter for item $j$
-  - $s_j, \ for\ j=1,2,...,J$ : slip parameter for item $j$
-  - $n_j, \ for\ j=1,2,...,J$ : equivalence class number for  q-vector for item $j$ ($n_j \in C_H-\{c_1\}$)
+  - $g_j, \ for \ j=1,2,...,J$ : guess parameter for item $j$
+  - $s_j, \ for \ j=1,2,...,J$ : slip parameter for item $j$
+  - $n_j, \ for \ j=1,2,...,J$ : equivalence class number for  q-vector for item $j$ ($n_j \in C_H-\{c_1\}$)
   - $Q_n=(n_1, n_2, ..., n_J)^T$ : vector of equivalence class numbers for q-vectors 
-  - $\phi_{j}=(\phi_{c_2}^{(j)},\phi_{c_3}^{(j)}, ..., \phi_{c_L}^{(j)}), \ for\ j=1,2,...,J$ : pmf for each $L-1$ equivalence classes for q-vector for item $j$
+  - $\phi_{j}=(\phi_{c_2}^{(j)},\phi_{c_3}^{(j)}, ..., \phi_{c_L}^{(j)}), \ for \ j=1,2,...,J$ : pmf for each $L-1$ equivalence classes for q-vector for item $j$
 <br/>
 <br/>
 
