@@ -22,9 +22,9 @@ This research modified Bayesian Q-matrix estimation method originally suggested 
 <br/>  
 <center><img src = "./img/Q.JPG" width = "100%" height = "100%"></center>  
 <br/>   
-$$Q=(q_{jk})_{JxK}, \ \ \ where \ \ \ $$
+$$Q=(q_{jk})_{JxK}, \ \ \ where \ \ \ 
 
-$$q_{jk}= 
+q_{jk}= 
 \begin{cases} 
 1, \\
 0, \
