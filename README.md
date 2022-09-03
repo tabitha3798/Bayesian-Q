@@ -25,8 +25,8 @@ This research modified Bayesian Q-matrix estimation method originally suggested 
 $$Q=(q_{jk})_{JxK}, \ \ \ where \ \ \ $$
 $$q_{jk}= 
 \begin{cases} 
-1,\\
-0,\
+1, \\
+0, \
 \end{cases}$$
 
 - *Attribute pattern*   
