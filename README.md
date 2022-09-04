@@ -43,9 +43,17 @@ $$\alpha_i = (\alpha_{i1}, \alpha_{i2}, ..., \alpha_{iK}),\ \ \ where \ \ \ \alp
 DINA model is one of the simplest and the most common-used CDMs.   
 For examinee $i$, the probability of correct answer for item $j$ is  
 <br/>  
-<center><img src = "./img/DINA.JPG" width = "100%" height = "100%"></center>  
+$$Pr(Y_{ij} = 1|\alpha_{i}) = (1-s_j)^{\eta_{ij}}{g_j}^{(1-\eta_{ij})}$$  
 <br/>  
-<br/>   
+$$ where \ \ \alpha_i = (\alpha_{i1}, \alpha_{i2}, ..., \alpha_{iK}) : \ \ attribute \ pattern \ for \  examinee \ i ,$$
+$$s_j \ : \ \ slip \ parameter \ for \ item \ j,$$
+$$g_j \ : \ \ guess \ parameter \ for \ item \ j,$$
+$$and \ \ \eta_{ij}=
+\begin{cases}
+1, \ if \ examinee \ i \ mastered \ all \ required \ skills \ for \ item \ j \\
+0, \ o.w. \
+\end{cases}$$
+<br/>  
 
 - *Hierarchy*  
     If attribute $i$ should be mastered to master attribute $j$, then we say that these two attributes have hierarchy structure. In this case, attribute $i$ is a precedence attribute for attribute $j$, and attribute $j$ is a following attribute for attribute $i$.  
