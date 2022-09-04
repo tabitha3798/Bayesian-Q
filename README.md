@@ -47,6 +47,7 @@ $$Pr(Y_{ij} = 1|\alpha_{i}) = (1-s_j)^{\eta_{ij}}{g_j}^{(1-\eta_{ij})}$$
 $$where \ \ \alpha_i = (\alpha_{i1}, \alpha_{i2}, ..., \alpha_{iK}) : \ \ attribute \ pattern \ for \  examinee \ i ,$$
 $$s_j \ : \ \ slip \ parameter \ for \ item \ j,$$
 $$g_j \ : \ \ guess \ parameter \ for \ item \ j,$$
+
 $$eta_{ij}= 
 \begin{cases}
 1, \ if \ examinee \ i \ all \ required \ skills \ for \ item \ j \\
