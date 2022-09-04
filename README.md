@@ -19,7 +19,7 @@ This research modified Bayesian Q-matrix estimation method originally suggested 
 
 - *Q-matrix*   
    The incidence matrix which identify the relationship between items and attributes(skills).   
-   Let $J$ be the number of items, and $K$ be the number of attributes. For $j \in \{1,2,...,J\}$ and $k \in \{1,2,...,K\}$, $(j,k)$-entry of $Q$ is  
+   Let $J$ be the number of items, and $K$ be the number of attributes. For $j \in \{1,2,...,J\}$ and $k \in \{1,2,...,K\}$, $\ \ (j,k)$-entry of $Q$ is  
    
 $$Q_{jk}= 
 \begin{cases} 
@@ -42,8 +42,9 @@ $$\alpha_i = (\alpha_{i1}, \alpha_{i2}, ..., \alpha_{iK}),\ \ \ where \ \ \ \alp
 
 - *DINA model*   
 DINA model is one of the simplest and the most common-used CDMs.   
-For examinee $i$, the probability of correct answer for item $j$ is  
+For examinee $i$, the probability of correct answer for item $j$ is
 <br/>  
+
 $$Pr(Y_{ij} = 1|\alpha_{i}) = (1-s_j)^{\eta_{ij}}{g_j}^{(1-\eta_{ij})}$$  
 $$where \ \ \alpha_i = (\alpha_{i1}, \alpha_{i2}, ..., \alpha_{iK}) : \ \ attribute \ pattern \ for \  examinee \ i ,$$
 $$s_j \ : \ \ slip \ parameter \ for \ item \ j,$$
