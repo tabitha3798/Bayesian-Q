@@ -125,13 +125,15 @@ $$A_{k_1k_2}=
 0, o.w. \
 \end{cases}$$
 <br/>      
+<br/> 
 
-- Q-matrix information matrix $Q_I$ suggested by test developers and educational experts.
-<br/>
+- Q-matrix information matrix $Q_I$ suggested by test developers and educational experts.  
+
 $$Q_I=(p_{jk})_{JxK}, \ \ \ where \ \ \ p_{jk}=Pr(q_{jk}=1) $$ 
 
   > Ex. $p_{jk}=0.7$ means that experts thought there is a 70% probability that attribute $k$ is necessary for item $j$.  
   > Or, seven out of 10 experts agreed $q_{jk}=1$.
+<br/> 
 
 - Effect size $\lambda$ which is the reflection degree of expert's opinion. (default : $\lambda = 1$)
 <br/>  
