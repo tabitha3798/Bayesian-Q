@@ -48,7 +48,7 @@ $$where \ \ \alpha_i = (\alpha_{i1}, \alpha_{i2}, ..., \alpha_{iK}) : \ \ attrib
 $$s_j \ : \ \ slip \ parameter \ for \ item \ j,$$
 $$g_j \ : \ \ guess \ parameter \ for \ item \ j,$$
 
-$and  \ \ \$eta_{ij}= 
+$$and  \ \ \eta_{ij}= 
 \begin{cases}
 1, \ if \ examinee \ i \ all \ required \ skills \ for \ item \ j \\
 0, \ o.w. \
