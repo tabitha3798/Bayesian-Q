@@ -74,7 +74,7 @@ $$and  \ \ \eta_{ij}=
 
 <br/>
 <br/>
-<center><img src = "./img/BayesianQ_SH.jpg" width = "50%" height = "50%"></center>  
+<center><img src = "./img/BayesianQ_SH.jpg" width = "100%" height = "100%"></center>  
 <br/>
 
 
