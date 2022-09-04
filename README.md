@@ -48,7 +48,9 @@ For examinee $i$, the probability of correct answer for item $j$ is
 $$Pr(Y_{ij} = 1|\alpha_{i}) = (1-s_j)^{\eta_{ij}}{g_j}^{(1-\eta_{ij})}$$  
 
 $$where \ \ \alpha_i = (\alpha_{i1}, \alpha_{i2}, ..., \alpha_{iK}) : \ \ attribute \ pattern \ for \  examinee \ i ,$$
+
 $$s_j \ : \ \ slip \ parameter \ for \ item \ j,$$
+
 $$g_j \ : \ \ guess \ parameter \ for \ item \ j,$$
 
 $$and  \ \ \eta_{ij}= 
