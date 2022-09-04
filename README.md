@@ -45,7 +45,7 @@ For examinee $i$, the probability of correct answer for item $j$ is
 <br/>  
 $$Pr(Y_{ij} = 1|\alpha_{i}) = (1-s_j)^{\eta_{ij}}{g_j}^{(1-\eta_{ij})}$$  
 <br/>  
-$$ where \ \ \alpha_i = (\alpha_{i1}, \alpha_{i2}, ..., \alpha_{iK}) : \ \ attribute \ pattern \ for \  examinee \ i ,$$
+$$where \ \ \alpha_i = (\alpha_{i1}, \alpha_{i2}, ..., \alpha_{iK}) : \ \ attribute \ pattern \ for \  examinee \ i ,$$
 $$s_j \ : \ \ slip \ parameter \ for \ item \ j,$$
 $$g_j \ : \ \ guess \ parameter \ for \ item \ j,$$
 $$and \ \ \eta_{ij}=
@@ -53,6 +53,7 @@ $$and \ \ \eta_{ij}=
 1, \ if \ examinee \ i \ mastered \ all \ required \ skills \ for \ item \ j \\
 0, \ o.w. \
 \end{cases}$$
+
 <br/>  
 
 - *Hierarchy*  
