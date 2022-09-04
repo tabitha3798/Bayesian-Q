@@ -107,6 +107,7 @@ __Notations__
 ### 2. Information Input
 
 - Response data $Y$  
+For examinee $i$, response for item $j$ is  
 
 $$Y_{ij}= 
 \begin{cases} 
@@ -130,7 +131,6 @@ $$A_{k_1k_2}=
 <br/>
 
 - Q-matrix information matrix $Q_I$ suggested by test developers and educational experts.  
-
   For $j \in \{1,2,...,J\}$ and $k \in \{1,2,...,K\}$, define $(j,k)$-entry of $Q_I$ as  
   $$p_{jk}=Pr(q_{jk}=1)$$
 
