@@ -19,8 +19,7 @@ This research modified Bayesian Q-matrix estimation method originally suggested 
 
 - *Q-matrix*   
    The incidence matrix which identify the relationship between items and attributes(skills).   
-   Let $J$ be the number of items, and $K$ be the number of attributes.  
-   For $j \in \{1,2,...,J\}$ and $k \in \{1,2,...,K\}$, $(j,k)$-entry of $Q$ is  
+   Let $J$ be the number of items, and $K$ be the number of attributes. For $j \in \{1,2,...,J\}$ and $k \in \{1,2,...,K\}$, $(j,k)$-entry of $Q$ is  
    
 $$Q_{jk}= 
 \begin{cases} 
@@ -30,7 +29,7 @@ $$Q_{jk}=
 <br/>
 
 - *Attribute pattern*   
-   A vector that shows whether an examinee mastered each attributes or not.
+   A vector that shows whether an examinee mastered each attributes or not.  
    For examinee $i$, the attribute pattern for examinee $i$ is  
    
 $$\alpha_i = (\alpha_{i1}, \alpha_{i2}, ..., \alpha_{iK}),\ \ \ where \ \ \ \alpha_{ik}=
