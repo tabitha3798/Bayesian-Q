@@ -118,6 +118,8 @@ $$Y_{ij}=
 
 - Adjacent matrix $A$ that discribes the hierarchy structure  
 For $k_1, k_2 \in \{1,2,...,K\}$,   $(k_1,k_2)$ entry of $A$ is 
+<br/>
+
 $$A_{k_1k_2}= 
 \begin{cases} 
 1, \ if \ attribute \ k_1 \ is \ necessary \ for \ attribute \ k_2 \\
