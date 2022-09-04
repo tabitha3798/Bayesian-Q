@@ -113,6 +113,7 @@ $$Y_{ij}=
 1, \ if \ examinee \ i \ answered \ item \ j \ correctly \\
 0, \ if \ examinee \ i \ answered \ item \ j \ wrong \
 \end{cases}$$
+
 <br/>
 <br/>
 
@@ -124,8 +125,9 @@ $$A_{k_1k_2}=
 1, \ if \ attribute \ k_1 \ is \ necessary \ for \ attribute \ k_2 \\
 0, o.w. \
 \end{cases}$$
-<br/>      
+    
 <br/> 
+<br/>
 
 - Q-matrix information matrix $Q_I$ suggested by test developers and educational experts.  
 
@@ -136,8 +138,9 @@ $$Q_I=(p_{jk})_{JxK}, \ \ \ where \ \ \ p_{jk}=Pr(q_{jk}=1) $$
 <br/> 
 
 - Effect size $\lambda$ which is the reflection degree of expert's opinion. (default : $\lambda = 1$)
+
 <br/>  
-<br/>  
+<br/> 
 
 ### 3. Variables 
   - $\alpha_{i}= (\alpha_{i1}, \alpha_{i2}, ..., \alpha_{iK}), \ for\ i=1,2,...,N$ : attribute pattern for examinee $i$
