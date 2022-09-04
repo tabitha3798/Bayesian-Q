@@ -31,7 +31,8 @@ $$Q_{jk}=
 
 - *Attribute pattern*   
    A vector that shows whether an examinee mastered each attributes or not.
-
+   For examinee $i$, the attribute pattern for examinee $i$ is  
+   
 $$\alpha_i = (\alpha_{i1}, \alpha_{i2}, ..., \alpha_{iK}),\ \ \ where \ \ \ \alpha_{ik}=
 \begin{cases}
 1, \ if \ examinee \ i \ mastered \ attribute \ k \\
@@ -107,7 +108,7 @@ __Notations__
 ### 2. Information Input
 
 - Response data $Y$  
-For examinee $i$, response for item $j$ is  
+For examinee $i$, the response for item $j$ is  
 
 $$Y_{ij}= 
 \begin{cases} 
@@ -116,18 +117,16 @@ $$Y_{ij}=
 \end{cases}$$
 
 <br/>
-<br/>
 
 - Adjacent matrix $A$ that discribes the hierarchy structure  
-For $k_1, k_2 \in \{1,2,...,K\}$,   $(k_1,k_2)$ entry of $A$ is 
+For $k_1, k_2 \in \{1,2,...,K\}$, $\ \ (k_1,k_2)$ entry of $A$ is 
 
 $$A_{k_1k_2}= 
 \begin{cases} 
 1, \ if \ attribute \ k_1 \ is \ necessary \ for \ attribute \ k_2 \\
 0, o.w. \
 \end{cases}$$
-    
-<br/> 
+     
 <br/>
 
 - Q-matrix information matrix $Q_I$ suggested by test developers and educational experts.  
