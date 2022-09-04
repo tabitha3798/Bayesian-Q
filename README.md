@@ -19,7 +19,8 @@ This research modified Bayesian Q-matrix estimation method originally suggested 
 
 - *Q-matrix*   
    The incidence matrix which identify the relationship between items and attributes(skills).   
-   Let $J$ be the number of items, and $K$ be the number of attributes. For $j \in \{1,2,...,J\}$ and $k \in \{1,2,...,K\}$, $(j,k)$-entry of $Q$ is  
+   Let $J$ be the number of items, and $K$ be the number of attributes.  
+   For $j \in \{1,2,...,J\}$ and $k \in \{1,2,...,K\}$, $(j,k)$-entry of $Q$ is  
    
 $$Q_{jk}= 
 \begin{cases} 
@@ -107,10 +108,15 @@ __Notations__
 
 - Response data $Y$  
 <br/>
-<center><img src = "./img/Y.JPG" width = "100%" height = "100%"></center>  
-<br/>  
+$$Y_{ij}= 
+\begin{cases} 
+1, \ if \ examinee \ i \ answered \ item \ j \ correctly \\
+0, \ if \ examinee \ i \ answered \ item \ j \ wrong \
+\end{cases}$$
+<br/>
 
-- Adjacent matrix $A$ that discribes the hierarchy structure
+- Adjacent matrix $A$ that discribes the hierarchy structure  
+For $k_1, k_2 \in \{1,2,...,K\}$, $(k_1,k_2)$ entry of $A$ is 
 <br/>  
 <center><img src = "./img/A.JPG" width = "100%" height = "100%"></center>  
 <br/>      
