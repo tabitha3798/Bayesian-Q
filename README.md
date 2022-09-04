@@ -23,8 +23,8 @@ This research modified Bayesian Q-matrix estimation method originally suggested 
    
 $$Q_{jk}= 
 \begin{cases} 
-1, \if\item\j\requires\attribute\k \\
-0, \o.w. \
+1, \ if \ item \ j \ requires \ attribute \ k \\
+0, \ o.w. \
 \end{cases}$$
 
 - *Attribute pattern*   
