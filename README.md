@@ -26,10 +26,17 @@ $$Q_{jk}=
 1, \ if \ item \ j \ requires \ attribute \ k \\
 0, \ o.w. \
 \end{cases}$$
+<br/>
 
 - *Attribute pattern*   
    A vector that shows whether an examinee mastered each attributes or not.
-<center><img src = "./img/AP.JPG" width = "100%" height = "100%"></center>  
+
+$$\alpha_i = (\alpha_{i1}, \alpha_{i2}, ..., \alpha_{iK}),\ \ \ where \ \ \ \alpha_{ik}=
+\begin{cases}
+1, \ if \ examinee \ i \ mastered \ attribute \ k \\
+0, \ o.w. \
+\end{cases}$$
+
 <br/>   
 
 - *DINA model*   
