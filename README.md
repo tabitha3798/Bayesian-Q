@@ -107,7 +107,6 @@ __Notations__
 ### 2. Information Input
 
 - Response data $Y$  
-<br/>
 
 $$Y_{ij}= 
 \begin{cases} 
@@ -115,11 +114,15 @@ $$Y_{ij}=
 0, \ if \ examinee \ i \ answered \ item \ j \ wrong \
 \end{cases}$$
 <br/>
+<br/>
 
 - Adjacent matrix $A$ that discribes the hierarchy structure  
 For $k_1, k_2 \in \{1,2,...,K\}$,   $(k_1,k_2)$ entry of $A$ is 
-<br/>  
-<center><img src = "./img/A.JPG" width = "100%" height = "100%"></center>  
+$$A_{k_1k_2}= 
+\begin{cases} 
+1, \ if \ attribute \ k_1 \ is \ necessary \ for \ attribute \ k_2 \\
+0, o.w. \
+\end{cases}$$
 <br/>      
 
 - Q-matrix information matrix $Q_I$ suggested by test developers and educational experts.
