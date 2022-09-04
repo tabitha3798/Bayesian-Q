@@ -108,6 +108,7 @@ __Notations__
 
 - Response data $Y$  
 <br/>
+
 $$Y_{ij}= 
 \begin{cases} 
 1, \ if \ examinee \ i \ answered \ item \ j \ correctly \\
@@ -116,7 +117,7 @@ $$Y_{ij}=
 <br/>
 
 - Adjacent matrix $A$ that discribes the hierarchy structure  
-For $k_1, k_2 \in \{1,2,...,K\}$, $(k_1,k_2)$ entry of $A$ is 
+For $k_1, k_2 \in \{1,2,...,K\}$,   $(k_1,k_2)$ entry of $A$ is 
 <br/>  
 <center><img src = "./img/A.JPG" width = "100%" height = "100%"></center>  
 <br/>      
