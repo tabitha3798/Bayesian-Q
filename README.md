@@ -18,16 +18,12 @@ This research modified Bayesian Q-matrix estimation method originally suggested 
 <br/>
 
 - *Q-matrix*   
-   The incidence matrix which identify the relationship between items and attributes(skills).  
-<br/>  
-<center><img src = "./img/Q.JPG" width = "100%" height = "100%"></center>  
-<br/>   
-$$Q={(q_{jk})}_{J \times K}, \ \ \ where \ \ \ $$
-
-$$q_{jk}= 
+   The incidence matrix which identify the relationship between items and attributes(skills).   
+   Let $J$ be the number of items, and $K$ be the number of attributes. For $j \in \{1,2,...,J\}$ and $k \in \{1,2,...,K\}$, $(j,k)$-entry of $Q$ is 
+$$Q_{jk}= 
 \begin{cases} 
-1, \\
-0, \
+1, \if\item\j\requires\attribute\k\\
+0, \o.w.\
 \end{cases}$$
 
 - *Attribute pattern*   
